@@ -17,6 +17,16 @@ namespace FirstProgram
             {
                 Console.WriteLine("Location is not provided.");
             }
+            program.Print();
+        }
+    }
+
+    public class program
+    {
+        public static void Print()
+        {
+            Console.WriteLine("just some OOP shizz");
         }
     }
 }
+
