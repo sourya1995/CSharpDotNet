@@ -1,0 +1,151 @@
+#####################
+# Build & Output
+#####################
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+*.tlog
+*.user
+*.suo
+*.cache
+*.ilk
+*.meta
+*.pdb
+*.vsp
+*.vspscc
+*.vssscc
+*.ncb
+*.opensdf
+*.sdf
+*.sbr
+*.dbmdl
+*.bak
+*.backup
+*.tmp
+*.temp
+
+#####################
+# Visual Studio
+#####################
+.vs/
+.vscode/
+*.code-workspace
+*.userprefs
+*.DotSettings.user
+*.sln.docstates
+
+#####################
+# Resharper / Rider
+#####################
+.idea/
+*.sln.iml
+_ReSharper*/
+*.DotSettings
+
+#####################
+# NuGet
+#####################
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.assets.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+#####################
+# Entity Framework
+#####################
+Migrations/
+
+#####################
+# ASP.NET
+#####################
+*.Publish.xml
+*.pubxml
+*.publishproj
+*.azurePubxml
+App_Data/
+App_Code/
+
+#####################
+# IIS / Hosting
+#####################
+iisexpress/
+.localhistory/
+wwwroot/
+Properties/launchSettings.json
+
+#####################
+# Test Results
+#####################
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+
+#####################
+# Other Common Tools
+#####################
+*.DS_Store
+Thumbs.db
+desktop.ini
+*.orig
+*.rej
+
+#####################
+# Dotnet tools / global.json SDK manifests
+#####################
+.dotnet/
+global.json
+
+#####################
+# Docker / Container Artifacts
+#####################
+*.container.cache
+**/docker-compose.override.yml
+.docker/
+
+#####################
+# Secrets & Keys
+#####################
+secrets.json
+*.key
+*.pfx
+*.pem
+
+#####################
+# Logs & Telemetry
+#####################
+*.log
+logs/
+log/
+
+#####################
+# JetBrains Rider & other IDEs
+#####################
+.idea/
+*.iml
+*.ipr
+*.iws
+
+#####################
+# Coverage Reports
+#####################
+coverage/
+*.lcov
+*.opencover.xml
+*.coveragexml
+
+#####################
+# Custom Enterprise Rules (Optional)
+#####################
+# Add enterprise-specific tools or folder exclusions here
+# e.g., custom build scripts, CI artifacts, etc.
+artifacts/
+generated/
